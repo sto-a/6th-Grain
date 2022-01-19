@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><Earth_Explorer_File xmlns="http://gs2.esa.int/DATA_STRUCTURE/olqcReport">
+    <Earth_Explorer_Header>
+        <Fixed_Header>
+            <File_Name>GRANULE/L1C_T21LZD_A020756_20190613T135115/QI_DATA/GEOMETRIC_QUALITY.xml</File_Name>
+            <File_Description>Report produced by OLQC-SC</File_Description>
+            <Notes/>
+            <Mission>S2A</Mission>
+            <File_Class>OPER</File_Class>
+            <File_Type>REP_OLQCPA</File_Type>
+            <Validity_Period>
+                <Validity_Start>UTC=2019-02-11T00:00:00</Validity_Start>
+                <Validity_Stop>UTC=2100-01-01T00:00:00</Validity_Stop>
+            </Validity_Period>
+            <File_Version>2</File_Version>
+            <Source>
+                <System>OLQC-SC</System>
+                <Creator>OLQC-SC</Creator>
+                <Creator_Version>01.06.03</Creator_Version>
+                <Creation_Date>UTC=2019-06-15T15:43:17</Creation_Date>
+            </Source>
+        </Fixed_Header>
+    </Earth_Explorer_Header>
+    <Data_Block type="xml">
+        <report date="2019-06-15T15:43:17.948Z" gippVersion="1.0" globalStatus="PASSED">
+            <checkList>
+                <parentID>S2A_OPER_GIP_OLQCPA_MPC__20181218T000020_V20190211T000000</parentID>
+                <name>GEOMETRIC_QUALITY</name>
+                <version>1.0</version>
+                <item class="http://www.esa.int/s2#pdi_level_1c_tile_container" className="PDI Level 1C Tile Folder" name="S2A_OPER_MSI_L1C_TL_EPA__20190615T141459_A020756_T21LZD_N02.07" url="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190615_34/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPA__20190615T141459_A020756_T21LZD_N02.07/"/>
+                <check>
+                    <inspection creation="2019-06-15T15:43:17.379Z" duration="553" execution="2019-06-15T15:43:17.392Z" id="Solar_Angle_Zenith" item="S2A_OPER_MTD_L1C_TL_EPA__20190615T141459_A020756_T21LZD.xml" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190615_34/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPA__20190615T141459_A020756_T21LZD_N02.07/S2A_OPER_MTD_L1C_TL_EPA__20190615T141459_A020756_T21LZD.xml" name="Check the zenith solar angle. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Zenith solar angle (45.0827667100155) is in the limit of the threshold (180.0) </message>
+                    <extraValues>
+                        <value name="EXPECTED">180.0</value>
+                        <value name="SOLAR_ZENITH_ANGLE">45.0827667100155</value>
+                    </extraValues>
+                </check>
+                <check>
+                    <inspection creation="2019-06-15T15:43:17.949Z" duration="314" execution="2019-06-15T15:43:17.960Z" id="Solar_Angle_Azimuth" item="S2A_OPER_MTD_L1C_TL_EPA__20190615T141459_A020756_T21LZD.xml" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190615_34/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPA__20190615T141459_A020756_T21LZD_N02.07/S2A_OPER_MTD_L1C_TL_EPA__20190615T141459_A020756_T21LZD.xml" name="Check the azimuth solar angle. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">Azimuth solar angle (32.618729906593) is in the limit of the threshold (360.0) </message>
+                    <extraValues>
+                        <value name="EXPECTED">360.0</value>
+                        <value name="SOLAR_AZIMUTH_ANGLE">32.618729906593</value>
+                    </extraValues>
+                </check>
+                <check>
+                    <inspection creation="2019-06-15T15:43:20.157Z" duration="527" execution="2019-06-15T15:43:20.168Z" id="Granule_Dimensions_60m" item="S2A_OPER_MSI_L1C_TL_EPA__20190615T141459_A020756_T21LZD_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190615_34/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPA__20190615T141459_A020756_T21LZD_N02.07/" name="Check the 60m consistency of granules/tiles. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">60m resolution granules/tiles dimensions are correct.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-06-15T15:43:20.696Z" duration="664" execution="2019-06-15T15:43:20.707Z" id="Granule_Dimensions_20m" item="S2A_OPER_MSI_L1C_TL_EPA__20190615T141459_A020756_T21LZD_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190615_34/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPA__20190615T141459_A020756_T21LZD_N02.07/" name="Check the 20m consistency of granules/tiles. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">20m resolution granules/tiles dimensions are correct.</message>
+                </check>
+                <check>
+                    <inspection creation="2019-06-15T15:43:21.372Z" duration="635" execution="2019-06-15T15:43:21.383Z" id="Granule_Dimensions_10m" item="S2A_OPER_MSI_L1C_TL_EPA__20190615T141459_A020756_T21LZD_N02.07" itemURL="/dpc/data/phoebus-share/PHOEBUS-3.4.1/wp_in_progress/l1c_20190615_34/app_data/steps_data/L1C/TILE/S2A_OPER_MSI_L1C_TL_EPA__20190615T141459_A020756_T21LZD_N02.07/" name="Check the 10m consistency of granules/tiles. " priority="5" processingStatus="done" status="PASSED"/>
+                    <message contentType="text/plain">10m resolution granules/tiles dimensions are correct.</message>
+                </check>
+            </checkList>
+        </report>
+    </Data_Block>
+</Earth_Explorer_File>

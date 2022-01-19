@@ -1,0 +1,985 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xfdu:XFDU xmlns:gml="http://www.opengis.net/gml" xmlns:safe="http://www.esa.int/safe/sentinel/1.1" xmlns:xfdu="urn:ccsds:schema:xfdu:1" version="esa/safe/sentinel/1.1/sentinel-2/msi/archive_l2a_user_product">
+  <informationPackageMap>
+    <xfdu:contentUnit unitType="Product_Level-2A" textInfo="SENTINEL-2 MSI Level-2A User Product" pdiID="processing">
+      <xfdu:contentUnit ID="Tiles" textInfo="Tiles Container">
+        <xfdu:contentUnit ID="Tile1" textInfo="Granule Container">
+          <xfdu:contentUnit ID="QI_DATA_Tile1" textInfo="Quality Control Container">
+            <xfdu:contentUnit ID="CloudMask_Level-1C_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="CloudMask_Level-1C_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band1_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band1_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band2_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band2_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band3_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band3_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band4_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band4_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band5_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band5_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band6_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band6_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band7_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band7_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band8_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band8_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band9_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band9_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band10_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band10_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band11_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band11_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band12_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band12_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DefectivePixelsMask_Band13_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DefectivePixelsMask_Band13_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band1_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band1_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band2_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band2_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band3_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band3_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band4_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band4_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band5_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band5_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band6_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band6_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band7_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band7_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band8_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band8_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band9_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band9_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band10_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band10_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band11_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band11_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band12_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band12_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="DetectorFootprintMask_Band13_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="DetectorFootprintMask_Band13_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band1_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band1_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band2_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band2_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band3_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band3_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band4_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band4_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band5_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band5_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band6_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band6_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band7_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band7_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band8_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band8_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band9_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band9_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band10_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band10_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band11_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band11_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band12_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band12_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="NodataPixelsMask_Band13_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="NodataPixelsMask_Band13_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band1_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band1_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band2_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band2_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band3_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band3_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band4_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band4_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band5_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band5_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band6_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band6_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band7_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band7_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band8_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band8_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band9_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band9_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band10_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band10_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band11_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band11_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band12_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band12_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SaturatedPixelsMask_Band13_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="SaturatedPixelsMask_Band13_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band1_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band1_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band2_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band2_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band3_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band3_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band4_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band4_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band5_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band5_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band6_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band6_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band7_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band7_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band8_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band8_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band9_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band9_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band10_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band10_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band11_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band11_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band12_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band12_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TechQualityMask_Band13_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="TechQualityMask_Band13_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="S2_Level-1C_Preview_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Quality Control Container">
+              <dataObjectPointer dataObjectID="S2_Level-1C_Preview_Tile1_Data"/>
+            </xfdu:contentUnit>
+          </xfdu:contentUnit>
+          <xfdu:contentUnit ID="IMG_DATA_Tile1" textInfo="Image Data Container">
+            <xfdu:contentUnit ID="AOT_DATA_20m_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="AOT_DATA_20m_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_20m_Band1_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_20m_Band1_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_20m_Band2_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_20m_Band2_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_20m_Band3_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_20m_Band3_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_20m_Band4_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_20m_Band4_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_20m_Band5_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_20m_Band5_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_20m_Band6_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_20m_Band6_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_20m_Band7_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_20m_Band7_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_20m_Band8_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_20m_Band8_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_20m_Band9_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_20m_Band9_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SCL_DATA_20m_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="SCL_DATA_20m_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TCI_DATA_20m_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="TCI_DATA_20m_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="VIS_DATA_20m_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="VIS_DATA_20m_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="WVP_DATA_20m_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="WVP_DATA_20m_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="AOT_DATA_60m_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="AOT_DATA_60m_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_60m_Band1_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_60m_Band1_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_60m_Band2_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_60m_Band2_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_60m_Band3_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_60m_Band3_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_60m_Band4_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_60m_Band4_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_60m_Band5_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_60m_Band5_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_60m_Band6_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_60m_Band6_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_60m_Band7_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_60m_Band7_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_60m_Band8_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_60m_Band8_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_60m_Band9_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_60m_Band9_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_60m_Band10_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_60m_Band10_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="IMG_DATA_60m_Band11_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="IMG_DATA_60m_Band11_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="SCL_DATA_60m_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="SCL_DATA_60m_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="TCI_DATA_60m_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="TCI_DATA_60m_Tile1_Data"/>
+            </xfdu:contentUnit>
+            <xfdu:contentUnit ID="WVP_DATA_60m_Tile1_Data_Unit" unitType="Measurement Data Unit" textInfo="Image Data Container">
+              <dataObjectPointer dataObjectID="WVP_DATA_60m_Tile1_Data"/>
+            </xfdu:contentUnit>
+          </xfdu:contentUnit>
+          <xfdu:contentUnit ID="AUX_DATA_Tile1" textInfo="Auxiliary Data container"/>
+          <xfdu:contentUnit ID="S2_Level-2A_Tile1_Data_Unit" unitType="Metadata Unit">
+            <dataObjectPointer dataObjectID="S2_Level-2A_Tile1_Data"/>
+          </xfdu:contentUnit>
+        </xfdu:contentUnit>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="Datastrips" textInfo="Datastrips Container">
+        <xfdu:contentUnit ID="Datastrip1" textInfo="Granule Container">
+          <xfdu:contentUnit ID="QI_DATA_Datastrip1" textInfo="Quality Control Container"/>
+          <xfdu:contentUnit ID="S2_Level-2A_Datastrip1_Metadata_Unit" unitType="Metadata Unit">
+            <dataObjectPointer dataObjectID="S2_Level-2A_Datastrip1_Metadata"/>
+          </xfdu:contentUnit>
+        </xfdu:contentUnit>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="INSPIRE_Metadata_Unit" unitType="Metadata Unit">
+        <dataObjectPointer dataObjectID="INSPIRE_Metadata"/>
+      </xfdu:contentUnit>
+      <xfdu:contentUnit ID="S2_Level-2A_Product_Metadata_Unit" unitType="Metadata Unit">
+        <dataObjectPointer dataObjectID="S2_Level-2A_Product_Metadata"/>
+      </xfdu:contentUnit>
+    </xfdu:contentUnit>
+  </informationPackageMap>
+  <metadataSection>
+    <metadataObject ID="acquisitionPeriod" classification="DESCRIPTION" category="DMD">
+      <metadataWrap textInfo="Acquisition Period" vocabularyName="Sentinel-SAFE" mimeType="text/xml">
+        <xmlData>
+          <safe:acquisitionPeriod>
+            <safe:startTime>2019-06-13T13:51:21.024Z</safe:startTime>
+          </safe:acquisitionPeriod>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="measurementOrbitReference" classification="DESCRIPTION" category="DMD">
+      <metadataWrap textInfo="Orbit Reference" vocabularyName="Sentinel-SAFE" mimeType="text/xml">
+        <xmlData>
+          <safe:orbitReference>
+            <safe:orbitNumber type="start" groundTrackDirection="descending">020756</safe:orbitNumber>
+            <safe:relativeOrbitNumber type="start">024</safe:relativeOrbitNumber>
+          </safe:orbitReference>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="platform" classification="DESCRIPTION" category="DMD">
+      <metadataWrap textInfo="Platform Description" vocabularyName="Sentinel-SAFE" mimeType="text/xml">
+        <xmlData>
+          <safe:platform>
+            <safe:nssdcIdentifier>2015-000A</safe:nssdcIdentifier>
+            <safe:familyName>SENTINEL</safe:familyName>
+            <safe:number>2A</safe:number>
+            <safe:instrument>
+              <safe:familyName abbreviation="MSI">Multi-Spectral Instrument</safe:familyName>
+            </safe:instrument>
+          </safe:platform>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="processing" classification="PROVENANCE" category="PDI">
+      <metadataWrap mimeType="text/xml" vocabularyName="Sentinel-SAFE" textInfo="Processing">
+        <xmlData>
+          <safe:processing name="Generation of Level-2A User Product" start="2021-06-02T01:22:03.593129Z">					</safe:processing>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="measurementFrameSet" classification="DESCRIPTION" category="DMD">
+      <metadataWrap textInfo="Frame Set" vocabularyName="Sentinel-SAFE" mimeType="text/xml">
+        <xmlData>
+          <safe:frameSet>
+            <safe:footPrint srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
+              <gml:coordinates>-14.455837656721386 -54.21756 -14.441617062918118 -53.2005 -15.432144445353492 -53.183014 -15.447385942788165 -54.204742 -14.455837656721386 -54.21756 </gml:coordinates>
+            </safe:footPrint>
+          </safe:frameSet>
+        </xmlData>
+      </metadataWrap>
+    </metadataObject>
+    <metadataObject ID="INSPIRE_Metadata_Information" classification="DESCRIPTION" category="DMD">
+      <dataObjectPointer dataObjectID="INSPIRE_Metadata"/>
+    </metadataObject>
+    <metadataObject ID="S2_Level-2A_Product_Metadata_Information" classification="DESCRIPTION" category="DMD">
+      <dataObjectPointer dataObjectID="S2_Level-2A_Product_Metadata"/>
+    </metadataObject>
+    <metadataObject ID="S2_Level-2A_Datastrip1_Metadata_Information" classification="DESCRIPTION" category="DMD">
+      <dataObjectPointer dataObjectID="S2_Level-2A_Datastrip1_Metadata"/>
+    </metadataObject>
+  </metadataSection>
+  <dataObjectSection>
+    <dataObject ID="INSPIRE_Metadata">
+      <byteStream mimeType="text/xml" size="436">
+        <fileLocation locatorType="URL" href="./INSPIRE.xml"/>
+        <checksum checksumName="MD5">222182ecd327749d5503df2ce801cc67</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="S2_Level-2A_Product_Metadata">
+      <byteStream mimeType="text/xml" size="448">
+        <fileLocation locatorType="URL" href="./MTD_MSIL2A.xml"/>
+        <checksum checksumName="MD5">bf659911710fb3d19089e17446e69ef1</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="S2_Level-2A_Datastrip1_Metadata">
+      <byteStream mimeType="text/xml" size="628">
+        <fileLocation locatorType="URL" href="DATASTRIP/DS_EPA__20210602T011128_S20190613T135115/MTD_DS.xml"/>
+        <checksum checksumName="MD5">52fe4a6a8c0f1add1cac8179c38caf80</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="AOT_DATA_20m_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_AOT_20m.jp2"/>
+        <checksum checksumName="MD5">fa0522cbf527b820911114447e1052af</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_20m_Band1_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_B02_20m.jp2"/>
+        <checksum checksumName="MD5">21d1a1d12246865f8b0daeb7d5d0733b</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_20m_Band2_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_B03_20m.jp2"/>
+        <checksum checksumName="MD5">2c162dfebeb1f8a757848ef4a9acaee6</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_20m_Band3_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_B04_20m.jp2"/>
+        <checksum checksumName="MD5">dcf2af84ef37e7bad6c3a6527d12a126</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_20m_Band4_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_B05_20m.jp2"/>
+        <checksum checksumName="MD5">bf4ebf123bdc6fc8f00e4d7bc354b4e5</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_20m_Band5_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_B06_20m.jp2"/>
+        <checksum checksumName="MD5">9b7f57c014250c19833ffb93673b7c27</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_20m_Band6_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_B07_20m.jp2"/>
+        <checksum checksumName="MD5">143618efadd973993badca8399e88851</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_20m_Band7_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_B11_20m.jp2"/>
+        <checksum checksumName="MD5">dd6ddad0054bdb37595218bd8cc5c214</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_20m_Band8_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_B12_20m.jp2"/>
+        <checksum checksumName="MD5">3e2a0cff6b7b95da689eb11e92fac029</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_20m_Band9_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_B8A_20m.jp2"/>
+        <checksum checksumName="MD5">2a22d0666839aa8477e74d3bf6c6d282</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SCL_DATA_20m_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_SCL_20m.jp2"/>
+        <checksum checksumName="MD5">875a2b04a81b0c461ed30056ac1851ca</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TCI_DATA_20m_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_TCI_20m.jp2"/>
+        <checksum checksumName="MD5">620f55efbcf01d468e43a546580d69d0</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="VIS_DATA_20m_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_VIS_20m.jp2"/>
+        <checksum checksumName="MD5">75493f3c58fb0cb3f6a4032ec9840dde</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="WVP_DATA_20m_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R20m/T21LZD_20190613T135121_WVP_20m.jp2"/>
+        <checksum checksumName="MD5">73dc0b8818188a8eb238d2b13039c876</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="AOT_DATA_60m_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_AOT_60m.jp2"/>
+        <checksum checksumName="MD5">45d5a50201b732c4b2a3aaedb5ba8b67</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_60m_Band1_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_B01_60m.jp2"/>
+        <checksum checksumName="MD5">ddfdf0e8959860e1e629669204282bc8</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_60m_Band2_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_B02_60m.jp2"/>
+        <checksum checksumName="MD5">372cb43ddbfc86589c01ddd10ce53bf9</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_60m_Band3_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_B03_60m.jp2"/>
+        <checksum checksumName="MD5">d5f3b7816923ebb6f03a73518ea8fbdf</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_60m_Band4_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_B04_60m.jp2"/>
+        <checksum checksumName="MD5">6d142718f6c43277dbfb288d51a34166</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_60m_Band5_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_B05_60m.jp2"/>
+        <checksum checksumName="MD5">019b68c9985417a877ae301cb7b75604</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_60m_Band6_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_B06_60m.jp2"/>
+        <checksum checksumName="MD5">869e2f683344c067232944763859c052</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_60m_Band7_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_B07_60m.jp2"/>
+        <checksum checksumName="MD5">81619f81a9b94dc7f646a542821c1623</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_60m_Band8_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_B09_60m.jp2"/>
+        <checksum checksumName="MD5">fd2e00af108ad0d6ce80c4bb120eb9eb</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_60m_Band9_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_B11_60m.jp2"/>
+        <checksum checksumName="MD5">92602dff968378b925c5f56e0ccd1084</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_60m_Band10_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_B12_60m.jp2"/>
+        <checksum checksumName="MD5">f3f1ee36762012718aab737287048b1d</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="IMG_DATA_60m_Band11_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_B8A_60m.jp2"/>
+        <checksum checksumName="MD5">87909c765853d9904384722866639dd8</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SCL_DATA_60m_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_SCL_60m.jp2"/>
+        <checksum checksumName="MD5">5c74d6171a8cc5476b1fa3d82a64fcc9</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TCI_DATA_60m_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_TCI_60m.jp2"/>
+        <checksum checksumName="MD5">19b3d06e0431c8f371b8ba33811af1c0</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="WVP_DATA_60m_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="748">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/IMG_DATA/R60m/T21LZD_20190613T135121_WVP_60m.jp2"/>
+        <checksum checksumName="MD5">e958701b8745914447f933ed277f3001</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="S2_Level-2A_Tile1_Data">
+      <byteStream mimeType="text/xml" size="596">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/MTD_TL.xml"/>
+        <checksum checksumName="MD5">5e6ccbef0949efed37665b57783114d4</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="CloudMask_Level-1C_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_CLOUDS_B00.gml"/>
+        <checksum checksumName="MD5">26d6d0e96a1bf5e9c8a05950b2149585</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band1_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B01.gml"/>
+        <checksum checksumName="MD5">896a11a610c09da99b3b139c1cd19e89</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band2_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B02.gml"/>
+        <checksum checksumName="MD5">a72de61ea56cd4eadf5ce838e4b7182c</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band3_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B03.gml"/>
+        <checksum checksumName="MD5">46da9b4d31d6401277b07d247cf35830</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band4_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B04.gml"/>
+        <checksum checksumName="MD5">59c575ce16f73a9c63d539f1a375f6ff</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band5_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B05.gml"/>
+        <checksum checksumName="MD5">2f4033c6083b6809154e9ee944c6f78d</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band6_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B06.gml"/>
+        <checksum checksumName="MD5">d90fcc701efad8116a0017bb1bdb8951</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band7_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B07.gml"/>
+        <checksum checksumName="MD5">a463992ed53718c6bad58a1f38177bff</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band8_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B08.gml"/>
+        <checksum checksumName="MD5">c2207cd4fb1189637bcd9d03764c5aff</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band9_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B09.gml"/>
+        <checksum checksumName="MD5">8a1540b1a5943a776651a4d8cde0e7e9</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band10_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B10.gml"/>
+        <checksum checksumName="MD5">5d09be6a481ebda5ff1ee341b10f31c1</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band11_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B11.gml"/>
+        <checksum checksumName="MD5">66de4f03056ab4b1b4361d3cee31d8ca</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band12_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B12.gml"/>
+        <checksum checksumName="MD5">6d11e819fdbbf2c162e5b37c0ab8ddb6</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DefectivePixelsMask_Band13_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DEFECT_B8A.gml"/>
+        <checksum checksumName="MD5">8d17305a5d25f2f9df2c1ea2b563de00</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band1_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B01.gml"/>
+        <checksum checksumName="MD5">0e0788f09f3f8e13162ac7ceb2b30ae6</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band2_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B02.gml"/>
+        <checksum checksumName="MD5">b9b84e3c72b6a074eecd98c6f51a32fd</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band3_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B03.gml"/>
+        <checksum checksumName="MD5">e894a6deb8b978aa56a2263e8f5613ea</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band4_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B04.gml"/>
+        <checksum checksumName="MD5">b6dc203bae7492350cc49e343aeb68e0</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band5_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B05.gml"/>
+        <checksum checksumName="MD5">ac506c6fa831e3d0a35fef3a575ef862</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band6_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B06.gml"/>
+        <checksum checksumName="MD5">d0e79a75d67a4fb6cbf7d466be71e193</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band7_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B07.gml"/>
+        <checksum checksumName="MD5">bd4246b0305363faa9a5069c3f81c4c5</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band8_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B08.gml"/>
+        <checksum checksumName="MD5">7930abca907ff37c21b0c63456ed18c6</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band9_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B09.gml"/>
+        <checksum checksumName="MD5">9ec6aafd866f36a992a44a1e648c4da6</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band10_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B10.gml"/>
+        <checksum checksumName="MD5">726e17a79550c3a26bb8ab92701b969a</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band11_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B11.gml"/>
+        <checksum checksumName="MD5">bdf3d534f09f66a69fd659325abe83bf</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band12_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B12.gml"/>
+        <checksum checksumName="MD5">6d6ebcb69e563ff92682cb7819f0d9bc</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="DetectorFootprintMask_Band13_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_DETFOO_B8A.gml"/>
+        <checksum checksumName="MD5">cb31ecfb657e7842d637435528ba1d1e</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band1_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B01.gml"/>
+        <checksum checksumName="MD5">e2597bcde9a27794fad2de2b62b9dadb</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band2_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B02.gml"/>
+        <checksum checksumName="MD5">21bb4979f5e64a638fc117b5877c6422</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band3_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B03.gml"/>
+        <checksum checksumName="MD5">626fdd4ab8d2f741c510f2b1e4a9cd22</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band4_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B04.gml"/>
+        <checksum checksumName="MD5">f45396223cc89efe97d6439085e51f85</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band5_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B05.gml"/>
+        <checksum checksumName="MD5">004dd38a6f7c88d9fd06689071da2ca0</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band6_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B06.gml"/>
+        <checksum checksumName="MD5">ccf0b6b364f37adca156941935adbe5a</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band7_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B07.gml"/>
+        <checksum checksumName="MD5">3edff6a4c659372889a900da4b13a324</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band8_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B08.gml"/>
+        <checksum checksumName="MD5">b5d0bbf2efc8b83554256bf57f875e72</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band9_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B09.gml"/>
+        <checksum checksumName="MD5">69e843222221232c439d6385d22ac094</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band10_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B10.gml"/>
+        <checksum checksumName="MD5">10d617d0a0e79fbfc87fb6d8e64b0c9f</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band11_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B11.gml"/>
+        <checksum checksumName="MD5">b748bc0eee1d4f4c0cb2d2da2510a3f1</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band12_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B12.gml"/>
+        <checksum checksumName="MD5">714896dc831f3d406de58402d946bf10</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="NodataPixelsMask_Band13_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_NODATA_B8A.gml"/>
+        <checksum checksumName="MD5">914f78539cac1daac3a1fc0cf6914580</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band1_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B01.gml"/>
+        <checksum checksumName="MD5">26343027c80c12dafd25656eb9fdc931</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band2_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B02.gml"/>
+        <checksum checksumName="MD5">0359bce8aaf6a2bef817f8e44966be16</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band3_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B03.gml"/>
+        <checksum checksumName="MD5">e326e8baf817252c2376bf4daa16e1d3</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band4_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B04.gml"/>
+        <checksum checksumName="MD5">ebcdb7f523be95dac6015f8e60258e68</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band5_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B05.gml"/>
+        <checksum checksumName="MD5">7263b4b785b0f2c627d9d200c45e2cfe</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band6_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B06.gml"/>
+        <checksum checksumName="MD5">c8b19ccbb4cf626acda260a753249b34</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band7_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B07.gml"/>
+        <checksum checksumName="MD5">185c9224f21c6c545aab353e6309f215</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band8_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B08.gml"/>
+        <checksum checksumName="MD5">5eba52d83656ae7f2da4983cf21b7a20</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band9_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B09.gml"/>
+        <checksum checksumName="MD5">29a33faa23640402c8b0fb3c4ef05191</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band10_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B10.gml"/>
+        <checksum checksumName="MD5">f1b1b3db02e106c93587d03d3212bae4</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band11_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B11.gml"/>
+        <checksum checksumName="MD5">6cecd92ba6e50e82c592d1481877b2fb</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band12_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B12.gml"/>
+        <checksum checksumName="MD5">43dbd0d5c0f5154fcd975695b7f24b38</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="SaturatedPixelsMask_Band13_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_SATURA_B8A.gml"/>
+        <checksum checksumName="MD5">c9b3c04590cf4e7bd79752b4e70be206</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band1_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B01.gml"/>
+        <checksum checksumName="MD5">36523967cf6a6061fed37eee92beaa1e</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band2_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B02.gml"/>
+        <checksum checksumName="MD5">17b5094b34cb93ecd74b6ad0c4e011ce</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band3_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B03.gml"/>
+        <checksum checksumName="MD5">e9a67a65c698edfa4f487204674aabf8</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band4_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B04.gml"/>
+        <checksum checksumName="MD5">4826f0604b196f91dcac24da5b2738bd</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band5_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B05.gml"/>
+        <checksum checksumName="MD5">f4e6b0f095d4d9b3b131d09713d4a44a</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band6_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B06.gml"/>
+        <checksum checksumName="MD5">890d1825bc1d5847d0eb0b0da50cf6de</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band7_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B07.gml"/>
+        <checksum checksumName="MD5">5e7d8c967f38e9540d59c61a09f7a8f4</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band8_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B08.gml"/>
+        <checksum checksumName="MD5">9096f57ea69dd9e53732433791db62d5</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band9_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B09.gml"/>
+        <checksum checksumName="MD5">3aaebf7bcbc67be7212e5255b0966f64</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band10_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B10.gml"/>
+        <checksum checksumName="MD5">737c85c95723b5f9c6e3c77b9cfdf34c</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band11_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B11.gml"/>
+        <checksum checksumName="MD5">6895bfca9c48082f979e3c877e8e5bc1</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band12_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B12.gml"/>
+        <checksum checksumName="MD5">874a1067e8c3908baccb8a19deea7051</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="TechQualityMask_Band13_Tile1_Data">
+      <byteStream mimeType="application/xml" size="660">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/MSK_TECQUA_B8A.gml"/>
+        <checksum checksumName="MD5">68d0b844898c17989bff2f1a4a94437b</checksum>
+      </byteStream>
+    </dataObject>
+    <dataObject ID="S2_Level-1C_Preview_Tile1_Data">
+      <byteStream mimeType="application/octet-stream" size="708">
+        <fileLocation locatorType="URL" href="GRANULE/L2A_T21LZD_A020756_20190613T135115/QI_DATA/T21LZD_20190613T135121_PVI.jp2"/>
+        <checksum checksumName="MD5">ebbd62082ce6eb34860705fe662cefe3</checksum>
+      </byteStream>
+    </dataObject>
+  </dataObjectSection>
+</xfdu:XFDU>
